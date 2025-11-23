@@ -1,0 +1,7 @@
+Перед запуском инсталляции пакета вводи - npm config set registry https://registry.npmjs.org/
+Это поможет решить конфликт с правами доступа
+Затем жми npm i 
+
+В src/index.html , в <head> добавил ссылку :
+<link rel="shortcut icon" href="#" />
+Это помогает избавться от ошибки при загрузке live serve
