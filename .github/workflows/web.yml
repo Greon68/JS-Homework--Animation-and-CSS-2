@@ -31,8 +31,8 @@ jobs:
       - run: yarn
       - run: yarn lint
 
-  test:
-    runs-on: ubuntu-latest
+  # test:
+  #   runs-on: ubuntu-latest
 
     # steps:
     #   - uses: actions/checkout@v4
